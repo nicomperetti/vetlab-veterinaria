@@ -613,13 +613,7 @@ height: 90%;
     
     gap: 8px;
 }
-.titulo-principal{
-    display: none;
-}
-.titulocelu{
-    grid-area: titulop;
-    display: inline-block;
-}
+
 .san-francisco{
     padding-left: 2%;
 }
@@ -730,14 +724,8 @@ height: 90%;
    gap: 5px;
   
 }
-.titulo-contacto{
-display: none;
 
-}
-.titulomobile{
-    grid-area:titulo ;
-    display: inline-block;
-}
+
 .textop{
     display: none;
 }
