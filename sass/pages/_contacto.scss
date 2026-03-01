@@ -1,0 +1,54 @@
+@use "../generales/variables" as*;
+/*----------------------------------------------------MAIN DE CONTACTO------------------------------------------------*/
+.titulo-contacto{
+        grid-area: titulo;
+        text-align: center;
+        margin-top: 2%;
+}
+.formulario{
+    display: grid ;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto form"
+    ;
+
+    grid-template-columns: 40% 40% ;
+   
+    grid-template-rows:15px 800px  15px;
+
+    justify-content: center;
+    
+    justify-items: center;
+    
+    align-items: center;
+   gap: 5px;
+
+   
+    .titulomobile{
+        display: none;
+    }
+    .textomobile{
+        display: none;
+    }
+    
+    .textop{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        grid-area: texto;
+       font-size: 1.2rem;
+        @include high(100%,100%);
+
+    }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area:form ;
+    border:#6BCF63 8px dotted ;
+    padding: 3% 3% 3% 5%;
+    @include high(90%,90%);
+  }
+
+}

@@ -1,0 +1,38 @@
+/* tipografia 
+font-family: 'Poppins', sans-serif;
+ */
+ /* paleta de colores Colores principales
+
+ Azul petróleo oscuro — #0A4F6E
+(contornos, texto “Lab”, estructura)
+
+ Verde azulado / turquesa — #1BB3A9
+(texto “Vet”, detalles del diseño)
+
+ Verde clínico — #6BCF63
+(cruz médica, acentos de laboratorio)
+
+Colores secundarios
+
+ Turquesa claro — #4FD1C5
+(iluminación, volumen en animales)
+
+ Azul medio — #2C7FA3
+(sombras y refuerzos visuales)
+
+Neutros
+
+ Blanco — #FFFFFF
+(fondo, limpieza visual)
+
+Gris muy oscuro / casi negro — #1F2933 */
+$principal:#1BB3A9;
+$secundario:#0A4F6E;
+$tercero: #2C7FA3;
+$blanco:#FFFFFF;
+
+@mixin high($ancho,$alto){
+width: $ancho;
+height: $alto;
+
+}

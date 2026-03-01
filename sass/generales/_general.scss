@@ -1,0 +1,40 @@
+/*----------------------------------------------RESET CSS--------------------------------------------------- */
+@use"./variables" as*;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{ 
+
+    
+  
+    
+   
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/fondo.png.png);
+   
+    h1{ 
+        
+        text-transform: uppercase;
+        color:#1BB3A9 ;
+        
+       
+
+    }
+    h2{
+        text-transform: capitalize
+        ;
+        color:#0A4F6E ;
+        
+    }
+    
+    h3{ text-transform: capitalize;
+        color:#2C7FA3 ;
+
+    }
+}
+

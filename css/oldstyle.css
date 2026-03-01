@@ -1,0 +1,738 @@
+/* ----------------------------------------------RESET CSS--------------------------------------------------------------*/ 
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{ 
+
+    
+  
+    
+   
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/fondo.png.png);
+   
+    h1{ 
+        
+        text-transform: uppercase;
+        color:#1BB3A9 ;
+        
+       
+
+    }
+    h2{
+        text-transform: capitalize
+        ;
+        color:#0A4F6E ;
+        
+    }
+    
+    h3{ text-transform: capitalize;
+        color:#2C7FA3 ;
+
+    }
+} */
+
+/* tipografia 
+font-family: 'Poppins', sans-serif;
+ */
+ /* paleta de colores Colores principales
+
+ Azul petróleo oscuro — #0A4F6E
+(contornos, texto “Lab”, estructura)
+
+ Verde azulado / turquesa — #1BB3A9
+(texto “Vet”, detalles del diseño)
+
+ Verde clínico — #6BCF63
+(cruz médica, acentos de laboratorio)
+
+Colores secundarios
+
+ Turquesa claro — #4FD1C5
+(iluminación, volumen en animales)
+
+ Azul medio — #2C7FA3
+(sombras y refuerzos visuales)
+
+Neutros
+
+ Blanco — #FFFFFF
+(fondo, limpieza visual)
+
+Gris muy oscuro / casi negro — #1F2933 */
+
+/* Header */
+   
+
+/* .logo{ 
+    width: 75px;
+    margin-right: 2px;
+
+
+} */
+
+/* header{
+    position: sticky;
+    top: 0;
+    z-index: 500;
+} */
+
+/* .header{
+  
+    background-color: #2C7FA3;
+    width: 100%;
+ } */
+
+
+
+/* .a{
+    text-decoration: none;
+    color:#FFFFFF ;
+    text-transform: uppercase;
+  
+} */
+
+
+/*------------------------------------------------FOOTER--------------------------------------------------------------- */
+
+/* footer{
+    background-color: #2C7FA3;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+  margin-top: 2%;
+}
+
+footer img{
+    width: 50px;
+
+} */
+
+
+/* ----------------------------------------------MAIN DE INDEX-----------------------------------------------------------*/
+
+/* .contenedor-index img{
+
+    width: 100%;
+    height: 100%;
+} */
+
+/* .contenedor-index{ 
+    display:grid;
+   
+    grid-template-areas:
+    
+    "titulo1 titulo1 titulo1"
+    "img1 texto1 texto1"
+    "titulo2 titulo2 titulo2"
+    "texto2 texto2 img2"
+    "titulo3 titulo3 titulo3"
+    "img3 texto3 texto3"
+    ;
+
+
+    grid-template-columns: 30% 30% 30% ;
+
+    grid-template-rows: 75px 250px 100px 250px 100px 250px 40px;
+
+    gap: 8px;
+    
+
+    justify-content:center;
+
+    justify-items:center;
+
+    align-items:center;
+   
+} */
+
+/* .titulo-uno{
+    grid-area:titulo1 ;
+    margin: 5px;
+     
+}
+
+.parrafo-uno{
+    grid-area:texto1;
+    margin-left: 2%;
+}
+
+.gatitos-index{
+    grid-area:img1;
+}
+
+
+.titulo-dos{
+    grid-area:titulo2;
+    
+}
+
+.parrafo-dos{
+    grid-area:texto2;
+    margin-right: 2%;
+}
+
+.clinica-index{
+    grid-area:img2;
+    
+}
+
+.titulo-tres{
+    grid-area:titulo3;
+   
+}
+
+.personal-index{
+    grid-area:img3;
+    
+   
+}
+
+.parrafo-tres{
+    grid-area:texto3 ;
+    margin-left: 2%;
+   padding-top: 5%;
+   
+} */
+
+
+/*----------------------------------------------MAIN DE SUCURSALES----------------------------------------------------- */
+
+/* .contenedor-sucursales iframe{
+    width: 95%;
+    height: 95%;
+} */
+
+/* .contenedor-sucursales p{
+    width: 100%;
+    height: 100%;
+    font-size: 1,8rem;
+
+} */
+/* .contenedor-sucursales{
+    display: grid;
+    grid-template-areas: 
+    "titulop titulop"
+    "titulosf titulosf"
+    "ifsf textosf"
+    "tituloc tituloc"
+    "textoc ifc"
+    "titulorc titulorc"
+    "ifrc textorc"
+    "tituloar tituloar"
+    "textoar ifar"
+    ;
+
+    grid-template-columns: 45% 45%;
+    
+    grid-template-rows:100px 75px 400px 75px 400px 75px 400px 75px 400px 20px ;
+    
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+    
+    gap: 8px;
+    
+
+} */
+/* .titulocelu{
+    display: none;
+}
+.titulo-principal{
+    grid-area: titulop;
+}
+
+.san-francisco{
+    grid-area: titulosf;
+}
+
+.sanfranif{
+    grid-area: ifsf;
+}
+
+.sanfranp{
+    grid-area: textosf;
+   
+}
+ 
+
+.cordoba{
+    grid-area: tituloc;
+}
+
+.cordobap{
+    grid-area: textoc;
+   
+}
+
+.cordobaif{
+    grid-area: ifc;
+}
+
+.rio-cuarto{
+    grid-area: titulorc ;
+   
+}
+
+.riocuartoif{
+    grid-area: ifrc;
+}
+
+.riocuartop{
+    grid-area: textorc; 
+    
+    
+}
+
+.arroyito{
+    grid-area:tituloar ;
+}
+
+.arroyitop{
+    grid-area: textoar;
+   
+}
+.arroyitoif{
+    grid-area: ifar;
+} */
+
+
+
+
+/*-------------------------------------------MAIN DE LABORATORIO------------------------------------------------------- */
+/* ul h2{
+  
+    text-transform:uppercase;
+    padding-left:0%;
+
+
+} */
+
+/* .contenedor-lab1 a{
+ 
+    text-transform:uppercase;
+    color: #2C7FA3;
+}
+.contenedor-lab1 img{
+
+width: 90%;
+height: 90%;
+
+} */
+
+/* .contenedor-lab1{
+    display: grid;
+
+    grid-template-areas: 
+    "titulo1 titulo1 titulo1"
+    "texto1 texto1 texto1"
+    "img1 texto2 img2"
+    ;
+
+    grid-template-columns:35% 20% 35% ;
+
+    grid-template-rows:50px 150px 250px 50px  15px;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+  row-gap: 30px;
+} */
+
+
+/* .titulo1{
+    grid-area:titulo1;
+    margin-top: 2%;
+   
+}
+
+.parrafo1{
+    grid-area:texto1;
+}
+
+.img-lab1{
+    grid-area:img1;
+}
+
+.atajos{
+     grid-area:texto2;
+}
+
+.img-lab2{
+    grid-area: img2;
+}
+
+.atajos{
+    display: flex;
+ flex-direction: column;
+ 
+} */
+
+
+/* .contenedor-lab2{
+    display: grid;
+    grid-template-areas: 
+    "titulo-uno titulo-uno titulo-uno"
+    "sub1 sub2 sub3"
+    " sub4  sub5 . "
+    "titulo-dos titulo-dos titulo-dos"
+    "sub6 sub7 sub8"
+    "sub9 . ."
+    ;
+    grid-template-columns:30% 30% 30%;
+
+    grid-template-rows:75px 175px 250px 50px 175px 175px 15px ;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+    row-gap: 15px;
+    
+   
+
+} */
+
+/* .titulo2{
+    grid-area:titulo-uno ;
+    
+}
+
+.analisis{
+    grid-area: sub1;
+}
+
+.orina{
+    grid-area: sub2;
+}
+
+.micro{
+    grid-area:sub3;
+}
+
+.estudio{
+    grid-area:sub4;
+    
+    
+}
+
+.alergias{
+    grid-area:sub5;
+}
+
+.titulo3{
+    grid-area:titulo-dos;
+    
+}
+ 
+.perros{
+    grid-area:sub6;
+}
+
+.gatos{
+    grid-area:sub7;
+}
+
+.roedores{
+    grid-area:sub8;
+}
+
+.aves{
+    grid-area:sub9;
+} */
+
+    
+/*--------------------------------------------MAIN DE CONTACTO----------------------------------------------------------*/
+
+
+
+/* .formulario{
+    display: grid ;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto form"
+    ;
+
+    grid-template-columns: 40% 40% ;
+   
+    grid-template-rows:15px 800px  15px;
+
+    justify-content: center;
+    
+    justify-items: center;
+    
+    align-items: center;
+   gap: 5px;
+
+} */
+
+/* .titulo-contacto{
+    grid-area: titulo;
+    text-align: center;
+  margin-top: 2%;
+}
+.titulomobile{
+    display: none;
+}
+.textomobile{
+    display: none;
+} */
+/* .textop{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+   
+} */
+
+/* .textop{
+    grid-area: texto;
+   width: 100%;
+   height: 100%;
+   font-size: 1.2rem;
+ 
+} */
+
+
+
+ 
+/* .form{
+    width: 90%;
+    height: 90%;
+    grid-area:form ;
+    border:#6BCF63 8px dotted ;
+    padding: 3% 3% 3% 5%;
+    
+    
+}
+    
+.form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+} */
+
+/*-------------------------------------------------MEDIAS QUERIES------------------------------------------------------ */
+
+
+/* Celulares/Mobile */
+/* 
+@media(max-width:480px) { 
+    /* footer */
+/* .img-facebook{
+    display: none;
+}
+.img-gmail{
+    display: none;
+}
+.predes{
+    display: none;
+}
+.pcontactos{
+    display: none;
+} */ 
+/* main de index */
+
+/* .contenedor-index{
+    display: grid;
+    grid-template-areas: 
+
+    "titulo1"
+    "img1"
+    "texto1"
+    "titulo2"
+    "texto2"
+    "titulo3"
+    "texto3"
+    ;
+ 
+    grid-template-columns: 95%;
+
+    grid-template-rows: 75px 250px 550px 50px  550px 75px 550px 15px;
+
+    gap: 15px;
+    
+
+    justify-content:center;
+
+    justify-items:center;
+
+    align-items:center;
+
+} */
+
+/* .personal-index{
+    display: none;
+}
+.contenedor-index p{
+    padding-left: 5%;
+}
+.parrafo-dos{
+    margin-left: 2%;
+} */
+/* .contenedor-index img{
+    padding-left: 7%;
+} */
+
+/* main de sucursales */
+/* .contenedor-sucursales{
+    display:grid ;
+    grid-template-areas: 
+    "titulop"
+    "titulosf"
+    "ifsf"
+    "textosf"
+    "tituloc"
+    "ifc"
+    "textoc"
+    "titulorc"
+    "ifrc"
+    "textorc"
+    "tituloar"
+    "ifar"
+    "textoar"
+    ;
+    grid-template-columns: 95%;
+    grid-template-rows: 75px 75px 250px 600px  75px 250px 450px  75px 250px 450px  75px 250px 450px 5px;
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+    
+    gap: 8px;
+} */
+
+/* .san-francisco{
+    padding-left: 2%;
+}
+.sanfranp{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.contenedor-sucursales p{
+    padding-left: 2%;
+}
+.cordobap{
+   padding-top: 5%;
+} */
+
+/* main de laboratorio */
+/* .contenedor-lab1{
+    grid-template-areas: 
+    "titulo1"
+    "texto1"
+     "texto2"
+    ;
+    grid-template-columns: 95%;
+    grid-template-rows: 50px 450px  250px 45px;
+     
+      justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+  row-gap: 30px;
+} */
+/* .img-lab2{
+    display: none;
+}
+.img-lab1{
+    display: none;
+}
+.parrafo1{
+    padding-left: 2%;
+} */
+
+/* .contenedor-lab2{
+    display: grid;
+    grid-template-areas: 
+    "titulo-uno"
+    "sub1"
+    "sub2"
+    "sub3"
+    "sub4"
+    "sub5"
+    "sub6"
+    "sub7"
+    "sub8"
+    "sub9"
+    ;
+    grid-template-columns: 95%;
+    
+    grid-template-rows: 75px 175px 175px 175px 175px 175px 175px 175px 175px 175px 10px;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+    row-gap: 15px;
+
+
+} */
+
+/* .titulo3{
+    display: none;
+}
+.titulo2{
+    padding-left: 5%;
+}
+.orina{
+    padding-right: 15%;
+}
+.micro{
+    padding-right: 20%;
+    padding-left: 2%;
+}
+.alergias{
+    padding-right: 20%;
+}
+.roedores{
+    padding-right: 20%;
+} */
+
+/* main de contactos */
+/* .formulario{
+    display: grid;
+
+    grid-template-areas: 
+    "titulo"
+    "texto"
+    "form"
+    ;
+
+    grid-template-columns: 95%;
+
+    grid-template-rows: 75px 300px 550px 15px ;
+
+    justify-content: center;
+    
+    justify-items: center;
+    
+    align-items: center;
+   gap: 5px;
+  
+}
+
+
+.textop{
+    display: none;
+}
+.textomobile{
+    grid-area: texto;
+    display: inline-block;
+
+} */
+

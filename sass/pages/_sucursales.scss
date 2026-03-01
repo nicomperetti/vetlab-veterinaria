@@ -1,0 +1,101 @@
+@use "../generales/variables" as*;
+/*----------------------------------------------------MAIN DE SUCURSALES----------------------------------------------*/
+
+.contenedor-sucursales{
+    display: grid;
+    grid-template-areas: 
+    "titulop titulop"
+    "titulosf titulosf"
+    "ifsf textosf"
+    "tituloc tituloc"
+    "textoc ifc"
+    "titulorc titulorc"
+    "ifrc textorc"
+    "tituloar tituloar"
+    "textoar ifar"
+    ;
+
+    grid-template-columns: 45% 45%;
+    
+    grid-template-rows:100px 75px 400px 75px 400px 75px 400px 75px 400px 20px ;
+    
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+    
+    gap: 8px;
+    
+
+    iframe{
+        @include high(95%,95%)
+    }
+    p{
+        @include high(100%, 100%);
+        font-size: 1,8rem ;
+
+    }
+
+        .titulocelu{
+        display: none;
+    }
+    .titulo-principal{
+        grid-area: titulop;
+    }
+
+    .san-francisco{
+        grid-area: titulosf;
+    }
+
+    .sanfranif{
+        grid-area: ifsf;
+    }
+
+    .sanfranp{
+        grid-area: textosf;
+    
+    }
+    
+
+    .cordoba{
+        grid-area: tituloc;
+    }
+
+    .cordobap{
+        grid-area: textoc;
+    
+    }
+
+    .cordobaif{
+        grid-area: ifc;
+    }
+
+    .rio-cuarto{
+        grid-area: titulorc ;
+    
+    }
+
+    .riocuartoif{
+        grid-area: ifrc;
+    }
+
+    .riocuartop{
+        grid-area: textorc; 
+        
+        
+    }
+
+    .arroyito{
+        grid-area:tituloar ;
+    }
+
+    .arroyitop{
+        grid-area: textoar;
+    
+    }
+    .arroyitoif{
+        grid-area: ifar;
+    }
+
+}

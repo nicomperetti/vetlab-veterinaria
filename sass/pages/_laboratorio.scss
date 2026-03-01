@@ -1,0 +1,141 @@
+@use "../generales/variables" as*;
+/*---------------------------------------------------------MAIN DE LABORATORIO---------------------------------------*/
+
+.contenedor-lab1{
+    display: grid;
+
+    grid-template-areas: 
+    "titulo1 titulo1 titulo1"
+    "texto1 texto1 texto1"
+    "img1 texto2 img2"
+    ;
+
+    grid-template-columns:35% 20% 35% ;
+
+    grid-template-rows:50px 150px 250px 50px  15px;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+  row-gap: 30px;
+
+  img{
+    @include high(90%,90%)
+  }
+
+  a{
+ 
+    text-transform:uppercase;
+    color: $tercero;
+    }
+
+        .titulo1{
+        grid-area:titulo1;
+        margin-top: 2%;
+    
+    }
+
+    .parrafo1{
+        grid-area:texto1;
+    }
+
+    .img-lab1{
+        grid-area:img1;
+    }
+
+    .atajos{
+        grid-area:texto2;
+    }
+
+    .img-lab2{
+        grid-area: img2;
+    }
+
+    .atajos{
+        display: flex;
+    flex-direction: column;
+    
+    }
+}
+
+
+.contenedor-lab2{
+    display: grid;
+    grid-template-areas: 
+    "titulo-uno titulo-uno titulo-uno"
+    "sub1 sub2 sub3"
+    " sub4  sub5 . "
+    "titulo-dos titulo-dos titulo-dos"
+    "sub6 sub7 sub8"
+    "sub9 . ."
+    ;
+    grid-template-columns:30% 30% 30%;
+
+    grid-template-rows:75px 175px 250px 50px 175px 175px 15px ;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+    row-gap: 15px;
+
+        .titulo2{
+        grid-area:titulo-uno ;
+        
+    }
+
+    .analisis{
+        grid-area: sub1;
+    }
+
+    .orina{
+        grid-area: sub2;
+    }
+
+    .micro{
+        grid-area:sub3;
+    }
+
+    .estudio{
+        grid-area:sub4;
+        
+        
+    }
+
+    .alergias{
+        grid-area:sub5;
+    }
+
+    .titulo3{
+        grid-area:titulo-dos;
+        
+    }
+    
+    .perros{
+        grid-area:sub6;
+    }
+
+    .gatos{
+        grid-area:sub7;
+    }
+
+    .roedores{
+        grid-area:sub8;
+    }
+
+    .aves{
+        grid-area:sub9;
+    }
+
+   ul h2{
+  
+    text-transform:uppercase;
+    padding-left:0%;
+
+
+    }
+
+}
