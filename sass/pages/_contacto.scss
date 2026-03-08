@@ -49,6 +49,13 @@
     border:#6BCF63 8px dotted ;
     padding: 3% 3% 3% 5%;
     @include high(90%,90%);
+
+   
+    .boton:hover{
+    background-color:$tercero;
+    color:$blanco ;
+    transition: 0.4s;
+    }
   }
 
 }

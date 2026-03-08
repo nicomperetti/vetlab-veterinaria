@@ -29,6 +29,7 @@
     align-items:center;
    
     img{
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
         @include high(100%,100%)
     }
