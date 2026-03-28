@@ -4,7 +4,7 @@
 /* CELULARES/MOBILE*/
 
 
-@media(max-width:480px){
+@media(max-width:500px){
 
     /*FOOTER*/
 
@@ -217,6 +217,199 @@
     .textomobile{
         grid-area: texto;
         display: inline-block;
+
+    }
+
+    }
+
+}
+/*--------------------------------------------------------TABLET-----------------------------------------------------*/
+@media(min-width:501px) and (max-width:850px){
+    /*FOOTER*/
+
+      /*FOOTER*/
+    .predes{
+        display: none;
+    }
+    .pcontactos{
+        display: none;
+    }
+
+    /*MAIN DE INDEX*/
+    .contenedor-index{
+    display: grid;
+    grid-template-areas: 
+
+    "titulo1"
+    "img1"
+    "texto1"
+    "titulo2"
+    "texto2"
+    "titulo3"
+    "texto3"
+    ;
+ 
+    grid-template-columns: 95%;
+
+    grid-template-rows: 70px 450px 650px 70px  650px 70px 650px 15px;
+
+    gap: 15px;
+    
+
+    justify-content:center;
+
+    justify-items:center;
+
+    align-items:center;
+
+    .personal-index{
+         display: none;
+    }
+
+    p{
+    padding-left: 5%;
+    font-size: 1.5rem;
+    }
+    .parrafo-dos{
+    margin-left: 2%;
+    }
+    img{
+    box-shadow: none;
+    padding-left: 7%;
+
+    }
+}
+
+    /*MAIN DE SUCURSALES*/
+
+.contenedor-sucursales{
+    display:grid ;
+    grid-template-areas: 
+    "titulop"
+    "titulosf"
+    "ifsf"
+    "textosf"
+    "tituloc"
+    "ifc"
+    "textoc"
+    "titulorc"
+    "ifrc"
+    "textorc"
+    "tituloar"
+    "ifar"
+    "textoar"
+    ;
+    grid-template-columns: 95%;
+    grid-template-rows: 75px 75px 500px 700px  75px 500px 600px  75px 500px 600px  75px 500px 600px 15px;
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+    
+    gap: 8px;
+
+    .san-francisco{
+    padding-left: 2%;
+    }
+    .sanfranp{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .cordobap{
+    padding-top: 5%;
+    }
+    
+    p{
+    padding-left: 2%;
+    font-size: 1.5rem;
+    }
+
+    }
+    /*MAIN DE LABORATORIO*/
+    .contenedor-lab1{
+    grid-template-areas: 
+    "titulo1"
+    "texto1"
+     "texto2"
+    ;
+    grid-template-columns: 95%;
+
+    grid-template-rows: 80px 500px  300px ;
+     
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+    row-gap: 30px;
+
+    .img-lab2{
+        display: none;
+    }
+    .img-lab1{
+        display: none;
+    }
+    .parrafo1{
+        padding-left: 2%;
+        font-size: 1.5rem;
+    }
+}
+.contenedor-lab2{
+    display: grid;
+    grid-template-areas: 
+    "titulo-uno titulo-uno titulo-uno"
+    "sub1 sub2 sub3"
+    " sub4  sub5 . "
+    "titulo-dos titulo-dos titulo-dos"
+    "sub6 sub7 sub8"
+    "sub9 . ."
+    ;
+    grid-template-columns:30% 30% 30%;
+
+    grid-template-rows:85px 250px 350px 75px 175px 300px 15px ;
+
+    justify-content: center;
+
+    justify-items: center;
+
+    align-items: center;
+    row-gap: 15px;
+    ul{
+        li{
+            font-size: 1.1rem;
+        }
+    }
+}
+ .formulario{
+    display: grid;
+
+    grid-template-areas: 
+    "titulo"
+    "texto"
+    "form"
+    ;
+
+    grid-template-columns: 95%;
+
+    grid-template-rows: 25px 350px 700px 15px ;
+
+    justify-content: center;
+    
+    justify-items: center;
+    
+    align-items: center;
+   gap: 5px;
+  
+   
+    .textop{
+        display: none;
+    }
+    .textomobile{
+        grid-area: texto;
+        display: inline-block;
+        font-size: 1.5rem;
 
     }
 
